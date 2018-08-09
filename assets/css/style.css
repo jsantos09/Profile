@@ -1,0 +1,37 @@
+.dark-background {
+    background-image: url("../img/dna1.jpeg");
+    background-size: 100%;
+}
+
+#resume-body {
+    background-color: white;
+}
+
+#nav-bar {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#name-Link {
+    font-size: 30px;
+}
+
+.social-link {
+    margin-top: 50%;
+    width: 100px;
+    height: 100px
+}
+
+#coming-soon {
+    color: slategrey;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+h2 {
+    margin: 5% 0 5% 0;
+}
+
+h6 {
+    margin-bottom: 4%;
+}
