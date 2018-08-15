@@ -55,7 +55,11 @@ h3 {
     }
 
     #name-link {
-        font-size: 100%;
+        font-size: 140%;
+    }
+
+    #navbar-link {
+        font-size: 90%;
     }
 
     #links-div {
