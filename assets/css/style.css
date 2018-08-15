@@ -33,6 +33,10 @@ h3 {
     font-size: 40px;
 }
 
+a:hover, #name-link:hover {
+    color: #00FF00;
+}
+
 #navbar-link {
     font-size: 23px;
 }
