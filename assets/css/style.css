@@ -23,11 +23,6 @@ h3 {
     margin-bottom: 5%;
 }
 /* Navbar css */
-#nav-bar {
-    position: relative;
-    top: 78%;
-}
-
 #navbar-jumbotron {
     margin-top: 2%;
     margin-left: 2%;
@@ -36,6 +31,10 @@ h3 {
     background-image: url("../img/moon.png");
     background-size: 89%;
     background-position: bottom right;
+}
+
+#full-navbar {
+    display: none;
 }
 
 #navbar-pic {
@@ -64,11 +63,39 @@ h3 {
     margin-left: 17%;
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
 @media only screen and (min-width: 768px) {
-    /* For desktop: */
+    #navbar-jumbotron {
+        margin-top: 2%;
+        margin-left: 2%;
+        height: 350px;
+        width: 96%;
+        background-image: url("../img/moon.png");
+        background-size: 100%;
+        background-position: center;
+    }
+    
+    #navbar-pic {
+        width: 15%;
+        position: absolute;
+        top: 12%;
+    }
+    
+    #navbar-btn {
+        display: none;
+    }
 
+    #full-navbar {
+        display: initial;
+        position: relative;
+        top: -27px;
+    }
+    
+    .social-link {
+        width: 65px;
+    }
+
+    #coming-soon {
+        font-size: 60px;
+        margin: 5% 0 0 15%;
+    }
 }
