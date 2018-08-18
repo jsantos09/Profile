@@ -90,6 +90,19 @@ h3 {
         top: -27px;
     }
     
+    a {
+        font-size: 24px;
+    }
+
+    h2 {
+        color: aquamarine;
+    }
+
+    p {
+        font-family: sans-serif;
+        font-size: 19px;
+    }
+
     .social-link {
         width: 65px;
     }
