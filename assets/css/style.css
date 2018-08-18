@@ -1,8 +1,7 @@
 .dark-background {
-    background-image: url("../img/background.jpg");
-    background-size: 100%;
+    background-image: url("../img/grey_wash_wall.png");
 }
-
+/* RESUME CSS */
 #resume-body {
     background-color: #F0F8FF;
     color: black;
@@ -23,60 +22,53 @@
 h3 {
     margin-bottom: 5%;
 }
-
+/* Navbar css */
 #nav-bar {
-    margin-top: 5%;
-    margin-bottom: 10%;
+    position: relative;
+    top: 78%;
 }
 
-#name-link {
-    font-size: 40px;
+#navbar-jumbotron {
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 150px;
+    width: 96%;
+    background-image: url("../img/moon.png");
+    background-size: 89%;
+    background-position: bottom right;
 }
 
-a:hover, #name-link:hover {
-    color: #00FF00;
+#navbar-pic {
+    width: 18%;
+    position: absolute;
+    top: 3%;
 }
 
-#navbar-link {
-    font-size: 23px;
+#navbar-btn {
+    position: relative;
+    top: 80%;
 }
 
 .social-link {
-    margin-top: 50%;
-    width: 100px;
-    height: 100px
+    width: 35px;
+}
+
+#info {
+    margin-left: 2%;
+    color: aliceblue;
 }
 
 #coming-soon {
-    color: slategrey;
-    margin-top: 10%;
-    margin-left: 30%;
+    color: aliceblue;
+    margin-top: 30%;
+    margin-left: 17%;
 }
 
-@media only screen and (max-width: 768px) {
-    .dark-background{
-        background-image: url("../img/background-mobile.jpg")
-    }
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
 
-    #name-link {
-        font-size: 140%;
-    }
-
-    #navbar-link {
-        font-size: 90%;
-    }
-
-    #links-div {
-        margin-top: 40%;
-    }
-
-    .social-link {
-        width: 60px;
-        height: 60px;
-    }
-
-    #coming-soon {
-        margin: 45% 0 0 15%;
-        color: #DCDCDC;
-    }
 }
