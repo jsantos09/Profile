@@ -11,6 +11,10 @@
     margin-top: 2%;
 }
 
+#resume-img {
+    width: 39%;
+}
+
 #main-container {
     margin-top: 3%;
 }
@@ -67,6 +71,7 @@ h3 {
     margin-left: 17%;
 }
 
+/* Laptop breakpoint */
 @media only screen and (min-width: 768px) {
     #navbar-jumbotron {
         margin-top: 1%;
@@ -120,6 +125,10 @@ h3 {
         font-size: 60px;
         margin: 5% 0 0 15%;
     }
+
+    #resume-img {
+        width: 70%;
+    }
 }
 
 
@@ -135,7 +144,7 @@ h3 {
     }
     
     #navbar-pic {
-        width: 15%;
+        width: 11%;
         position: absolute;
         top: 12%;
     }
