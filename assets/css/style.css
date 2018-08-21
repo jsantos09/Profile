@@ -76,7 +76,7 @@ h3 {
     #navbar-jumbotron {
         margin-top: 1%;
         margin-left: 2%;
-        height: 350px;
+        height: 300px;
         width: 96%;
         background-image: url("../img/moon.png");
         background-size: 100%;
@@ -127,26 +127,26 @@ h3 {
     }
 
     #resume-img {
-        width: 70%;
+        width: 43%;
     }
 }
 
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1400px) {
     #navbar-jumbotron {
-        margin-top: 2%;
-        margin-left: 2%;
+        margin-top: .5%;
+        margin-left: 18%;
         height: 350px;
-        width: 96%;
+        width: 65%;
         background-image: url("../img/moon.png");
         background-size: 100%;
         background-position: center;
     }
     
     #navbar-pic {
-        width: 11%;
+        width: 10%;
         position: absolute;
-        top: 12%;
+        top: 15%;
     }
     
     #navbar-btn {
