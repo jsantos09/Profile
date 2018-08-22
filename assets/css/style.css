@@ -32,9 +32,9 @@ h3 {
     margin-left: 2%;
     height: 20%;
     width: 96%;
-    background-image: url("../img/moon.png");
-    background-size: 89%;
-    background-position: bottom right;
+    background-image: url("../img/ai.jpg");
+    background-size: 85%;
+    background-position: right;
 }
 
 #full-navbar {
@@ -47,6 +47,7 @@ h3 {
 
 #navbar-btn {
     margin-top: 2%;
+    z-index: 1;
 }
 
 #social-links {
@@ -89,6 +90,7 @@ h3 {
     font-size: 130%;
     margin-bottom: 4%;
 }
+
 /* Laptop breakpoint */
 @media only screen and (min-width: 768px) {
     #navbar-jumbotron {
