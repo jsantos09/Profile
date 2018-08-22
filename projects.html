@@ -19,12 +19,30 @@
 <body class="dark-background">
     <!-- Jumbotron navbar -->
     <div class="jumbotron" id="navbar-jumbotron">
+        <!-- Big screen Navbar -->
+        <div id="full-navbar">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto animated fadeInDown slower">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./resume.html">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         <!-- Picture -->
         <div>
-            <img src="./assets/img/picture.jpeg" alt="profile-pic" id="navbar-pic">
+            <img src="./assets/img/picture.jpeg" alt="profile-pic" id="navbar-pic" class="animated wobble">
         </div>
         <!-- Dropdown Button -->
-        <div class="dropdown" id="navbar-btn">
+        <div class="dropdown animated fadeInUp slower" id="navbar-btn">
             <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 Juan Santos
@@ -42,24 +60,9 @@
                 </a>
             </div>
         </div>
-        <div id="full-navbar">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html">About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./resume.html">Resume</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
     </div>
+       
+    <!-- projects -->
     <div class="container">
         <div class="animated zoomIn slower" id="coming-soon">
             <h1>Coming soon...</h1>
@@ -68,7 +71,6 @@
             </h6>
         </div>
     </div>
-
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
