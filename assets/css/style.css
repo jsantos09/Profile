@@ -45,7 +45,7 @@ h3 {
 #main-container {
     width: 90%;
     margin-left: 6%;
-    background-image: linear-gradient(to bottom right, steelblue, silver, lightblue);
+    background-image: linear-gradient(to bottom right, steelblue, lightsteelblue);
     padding-top: 1%;
     box-shadow: -15px -10px 10px;
 }
@@ -53,7 +53,7 @@ h3 {
 #quotes-container {
     width: 90%;
     margin: 5% 0 0 3%;
-    background-image: linear-gradient(to bottom right, silver, lightblue);
+    background-image: linear-gradient(to bottom right, lightsteelblue, steelblue);
     padding: 1% 0 0 1%;
     box-shadow: 10px -10px 10px;
 }
@@ -111,11 +111,6 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-size: 80%;
-}
-
-#science-pic {
-    width: 30%;
-    margin: 2% 0 7% 6%;
 }
 
 #intro {
@@ -200,11 +195,6 @@ h3 {
         font-family: 'Courier New', Courier, monospace;
         font-style: italic;
         font-size: 100%;
-    }
-    
-    #science-pic {
-        width: 30%;
-        margin: 1% 0 3% 6%;
     }
     
     #intro {
@@ -302,11 +292,6 @@ h3 {
         font-family: 'Courier New', Courier, monospace;
         font-style: italic;
         font-size: 100%;
-    }
-    
-    #science-pic {
-        width: 30%;
-        margin: 2% 0 6% 6%;
     }
     
     #intro {
